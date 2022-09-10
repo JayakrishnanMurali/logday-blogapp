@@ -6,9 +6,9 @@ type Props = {
 };
 
 const Layout: React.FC<Props> = (props) => (
-  <div>
+  <div className="py-8 px-16">
     <Header />
-    <div className="layout">{props.children}</div>
+    <div className="mt-12">{props.children}</div>
   </div>
 );
 
