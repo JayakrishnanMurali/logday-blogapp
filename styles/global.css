@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.MuiButton-contained {
+  background-color: black;
+  color: white;
+}
+
+.MuiButton-contained:hover {
+  background-color: rgb(37, 37, 37);
+}
